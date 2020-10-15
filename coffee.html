@@ -14,17 +14,18 @@
 
         <div data-role="header" data-position="fixed" style="background-color: pink">
             <h1>Coffee</h1>
+            <a href="index.html" data-transition="flip" rel="external" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">Back</a>
         </div><!-- /header -->
 
         <div role="main" class="ui-content" style="text-align: center">
                 <ul data-role="listview" data-inset="true">
-                            <li><a href="#">
+                            <li><a href="#HotCoffee">
                                 <img src="coffee/coffee_time.png">
                                 <span class="ui-li-count" style="color: #fff;background-color:red">$120</span>
                                 <h2>Hot Coffee</h2>
                                 <p>Broken Bells</p></a>
                             </li>
-                            <li><a href="#">
+                            <li><a href="#DripsCoffee">
                                 <img src="coffee/coffee_drips.png">
                                 <span class="ui-li-count" style="color: #fff;background-color:red">$220</span>
                                 <h2>Drips Coffee</h2>
@@ -48,9 +49,44 @@
                                 <h2>Black Coffee</h2>
                                 <p>Phoenix</p></a>
                             </li>
-                        </ul>
+                          </ul>
+                </div>
         <div data-role="footer" data-position="fixed">
             <h4>&copy; 2020 All rights resersed.</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="HotCoffee">
+
+        <div data-role="header" data-position="fixed" style="background-color: pink">
+            <h1>Hot Coffee</h1>
+            <a href="#Coffee" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">Back</a>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content" style="text-align: center">
+        <img src="coffee/coffee_time.png" width="20%">
+            <p><a href="#Coffee">Back to Menu</a></p>
+        </div><!-- /content -->
+    
+        <div data-role="footer" data-position="fixed">
+            <h4>Page Footer</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <div data-role="page" id="DripsCoffee">
+
+        <div data-role="header" data-position="fixed" style="background-color: pink">
+            <h1>Hot Coffee</h1>
+            <a href="#Coffee" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power">Back</a>
+        </div><!-- /header -->
+    
+        <div role="main" class="ui-content" style="text-align: center">
+        <img src="coffee/coffee_drips.png" width="20%">
+            <p><a href="#Coffee">Back to Menu</a></p>
+        </div><!-- /content -->
+    
+        <div data-role="footer" data-position="fixed">
+            <h4>Page Footer</h4>
         </div><!-- /footer -->
     </div><!-- /page -->
     
